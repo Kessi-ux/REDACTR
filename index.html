@@ -4,12 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>REDACTR</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <main>
-    <input type="text" class="first">
-    
-    <input type="text" class="scrambled">
+    <form action="" id="scrambleForm">
+
+    <label for="beforeScrambling"> Make a Post </label>
+    <input type="text" id="beforeScrambling" name="text" placeholder="Enter your message">
+    <input type="text" id="textToBeScrambled" name="word" placeholder="Enter the words you want scrambled">
+    <input type="submit">
+    </form>
+
+    <!-- <input type="text" class="scrambled"> -->
 </main>
+<script src="script.js"></script>
 </body>
 </html>
